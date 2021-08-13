@@ -73,6 +73,8 @@ function Contact() {
           </div>
         </div>
       </div>
+      <p class="footer">New Jersey  |     (484) 855-8660    |    GurjantSRiar@gmail.com<br/>
+ <h5>Gurjant S Riar</h5></p>
     </>
   );
 }

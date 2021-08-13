@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.track{
+  font-size:20px;
+  margin-top: 100px;
+  background-color: cadetblue;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.footer{
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: grey;
+}

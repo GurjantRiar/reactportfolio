@@ -1,9 +1,11 @@
 import React from "react";
+import logo from "../src/logo.jpg";
 
 const About = () => {
   return (
     <div>
-      <h1>
+      <img src={logo} width="400" height="400" />{" "}
+      <h1 className="track">
         I am a highly motivated, progress-focused Front-End Engineer with good
         background in the industry and a track record of taking initiative and
         dependability. Throughout my career, I have perfected my front-end
@@ -17,6 +19,11 @@ const About = () => {
         progressive-minded individual who is in tune with new developments in my
         field
       </h1>
+      <p class="footer">
+        New Jersey | (484) 855-8660 | GurjantSRiar@gmail.com
+        <br />
+        <h5>Gurjant S Riar</h5>
+      </p>
     </div>
   );
 };
