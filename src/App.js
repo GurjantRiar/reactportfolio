@@ -11,8 +11,8 @@ import { Switch, Route, Redirect, BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Switch>
-        <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />
         <Route exact path="/contact" component={Contact} />
