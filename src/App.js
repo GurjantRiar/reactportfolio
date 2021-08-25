@@ -10,7 +10,7 @@ import { Switch, Route, Redirect, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter basename="/reactportfolio">>
+    <BrowserRouter basename="/reactportfolio">
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
