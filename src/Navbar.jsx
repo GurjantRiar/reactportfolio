@@ -59,6 +59,15 @@ function Navbar() {
                         Contact{" "}
                       </NavLink>
                     </li>
+                    <li className="nav-item">
+                      <NavLink
+                        activeClassName="menu_active"
+                        className="nav-link active"
+                        to="/About"
+                      >
+                        Projects
+                      </NavLink>
+                    </li>
                   </ul>
                 </div>
               </div>
