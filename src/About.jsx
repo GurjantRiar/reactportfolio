@@ -4,7 +4,7 @@ import logo from "../src/logo.jpg";
 const About = () => {
   return (
     <div>
-      <img src={logo} width="400" height="400" />{" "}
+      <img src={logo} width="400" height="400" align-items="center" />{" "}
       <h1 className="track">
         I am a highly motivated, progress-focused Front-End Engineer with good
         background in the industry and a track record of taking initiative and
