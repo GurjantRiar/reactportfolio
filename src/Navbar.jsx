@@ -63,7 +63,7 @@ function Navbar() {
                       <NavLink
                         activeClassName="menu_active"
                         className="nav-link active"
-                        to="/About"
+                        to="/Projects"
                       >
                         Projects
                       </NavLink>

@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 
 function Contact() {
   return (
@@ -70,11 +71,21 @@ function Contact() {
                 <button type="submit">Submit</button>
               </div>
             </form>
+            <section class="find" id="Contact Me">
+              <h1>Find Me</h1>
+              <a href="linkedin.com/in/gurjant-riar-7a8153203">linkedin</a>
+              <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
+              <a href="https://github.com/GurjantRiar/GurjantRiar">Github</a>
+              <a href="./assets/images/Riar Gurjant Resume.pdf">Resume</a>
+            </section>
           </div>
         </div>
       </div>
-      <p class="footer">New Jersey  |     (484) 855-8660    |    GurjantSRiar@gmail.com<br/>
- <h5>Gurjant S Riar</h5></p>
+      <p class="footer">
+        New Jersey | (484) 855-8660 | GurjantSRiar@gmail.com
+        <br />
+        <h5>Gurjant S Riar</h5>
+      </p>
     </>
   );
 }
