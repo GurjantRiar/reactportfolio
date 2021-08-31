@@ -73,10 +73,22 @@ function Contact() {
             </form>
             <section class="find" id="Contact Me">
               <h1>Find Me</h1>
-              <a href="linkedin.com/in/gurjant-riar-7a8153203">linkedin</a>
-              <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
-              <a href="https://github.com/GurjantRiar/GurjantRiar">Github</a>
-              <a href="./assets/images/Riar Gurjant Resume.pdf">Resume</a>
+              <li>
+                {" "}
+                <a href="linkedin.com/in/gurjant-riar-7a8153203">linkedin</a>
+              </li>
+              <li>
+                {" "}
+                <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
+              </li>
+              <li>
+                {" "}
+                <a href="https://github.com/GurjantRiar/GurjantRiar">Github</a>
+              </li>
+              <li>
+                {" "}
+                <a href="./assets/images/Riar Gurjant Resume.pdf">Resume</a>
+              </li>
             </section>
           </div>
         </div>
