@@ -4,7 +4,6 @@ import "./App.css";
 const Projets = () => {
   return (
     <div>
-    
       <section class="work" id="Projects">
         <h1>Projects</h1>
         <li>
