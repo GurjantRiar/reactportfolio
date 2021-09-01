@@ -185,13 +185,14 @@ margin-top: 500px;
 #Projects{
   display: block;
 }
-grid {
+.grid {
   display: grid;                           
   grid-template-columns: 1fr 1fr 1fr;      
   grid-template-rows: 1fr 1fr;             
   grid-gap: 0.5em;   
   margin-bottom: 200px;  
-  text-align: center;                  
+  text-align: center;   
+           
 }
 .grid > * {
   background-color:orange;
@@ -199,4 +200,5 @@ grid {
   padding: 2em;
   border-radius: 0.5em;
   font-size: 30px;
+  width:600px;
 }
