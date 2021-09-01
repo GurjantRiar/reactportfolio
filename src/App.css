@@ -192,6 +192,7 @@ margin-top: 500px;
   grid-gap: 0.5em;   
   margin-bottom: 200px;  
   text-align: center;   
+  margin-top: 200px;
            
 }
 .grid > * {
@@ -200,5 +201,16 @@ margin-top: 500px;
   padding: 2em;
   border-radius: 0.5em;
   font-size: 30px;
-  width:600px;
+  width:400px;
+}
+.docs{
+  background-color: orange;
+  height: 200px;
+  width:200px;
+  padding-left: 40px;
+  align-items: center;
+  display: flex;
+  margin-left: 40%;
+  border-radius: 3px;
+  font-size: 25px;
 }

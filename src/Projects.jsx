@@ -4,8 +4,8 @@ import "./App.css";
 const Projets = () => {
   return (
     <>
+      <h1>Projects</h1>
       <div class="grid">
-        <h1>Projects</h1>
         <div class="a">
           <a href="https://github.com/gurjantriar">Github</a>
         </div>
@@ -56,18 +56,10 @@ const Projets = () => {
         <div class="f">
           <a href="https://gurjantriar.github.io/notetaker/">Note Taker Live</a>
         </div>
-        <div class="e">
-          <a href="https://github.com/GurjantRiar/employeemanagementsystem">
-            employeemanagementsystem
-          </a>
-        </div>
-        <div class="f">
-          <a href="https://gurjantriar.github.io/employeemanagementsystem//">
-            employeemanagementsystem
-          </a>
-        </div>
       </div>
-      <li>
+
+      <h2>Resume</h2>
+      <li className="docs">
         <a href="https://drive.google.com/file/d/1OimU_Ai3WdQZMdVnabTzg2oIAv3q3V8B/view?usp=sharing">
           Resume
         </a>
