@@ -3,49 +3,76 @@ import "./App.css";
 
 const Projets = () => {
   return (
-    <div>
-      <section class="work" id="Projects">
+    <>
+      <div class="grid">
         <h1>Projects</h1>
-        <li>
-          <a href="https://gurjantriar.github.io/project1/">project1</a>
-        </li>
-        <li>
-          <a href="https://gurjantriar.github.io/Weatherdashboard/">
-            {" "}
+        <div class="a">
+          <a href="https://github.com/gurjantriar">Github</a>
+        </div>
+        <div class="b">
+          <a href="https://www.linkedin.com/in/gurjant-riar-7a8153203/">
+            linkedin
+          </a>
+        </div>
+        <div class="a">
+          <a href="https://github.com/GurjantRiar/project1">Project1</a>
+        </div>
+        <div class="b">
+          <a href="https://gurjantriar.github.io/project1/">Project1 Live</a>
+        </div>
+        <div class="c">
+          <a href="https://github.com/GurjantRiar/Weatherdashboard">
             Weatherdashboard
           </a>
-        </li>
-        <li>
-          {" "}
-          <a href="https://gurjantriar.github.io/workscheduler/">
-            workscheduler
+        </div>
+        <div class="d">
+          <a href="https://gurjantriar.github.io/Weatherdashboard/">
+            Weatherdashboard Live
           </a>
-        </li>
-        <li>
-          {" "}
-          <a href="https://github.com/GurjantRiar/project1">
-            Project1 Github url
-          </a>
-        </li>
-        <li>
-          {" "}
-          <a href="https://github.com/GurjantRiar/Weatherdashboard">
-            Weatherdashboard Github url
-          </a>
-        </li>
-        <li>
-          {" "}
+        </div>
+        <div class="e">
           <a href="https://github.com/GurjantRiar/workscheduler">
-            workscheduler Github url
+            Workscheduler
           </a>
-        </li>
-      </section>
+        </div>
+        <div class="f">
+          <a href="https://gurjantriar.github.io/workscheduler/">
+            Workscheduler Live
+          </a>
+        </div>
+        <div class="e">
+          <a href="https://github.com/GurjantRiar/readmegenerator">
+            readmegenerator
+          </a>
+        </div>
+        <div class="f">
+          <a href="https://gurjantriar.github.io/readmegenerator/">
+            readmegenerator Live
+          </a>
+        </div>
+        <div class="e">
+          <a href="https://github.com/GurjantRiar/notetaker">Note Taker</a>
+        </div>
+        <div class="f">
+          <a href="https://gurjantriar.github.io/notetaker/">Note Taker Live</a>
+        </div>
+        <div class="e">
+          <a href="https://github.com/GurjantRiar/employeemanagementsystem">
+            employeemanagementsystem
+          </a>
+        </div>
+        <div class="f">
+          <a href="https://gurjantriar.github.io/employeemanagementsystem//">
+            employeemanagementsystem
+          </a>
+        </div>
+      </div>
       <li>
         <a href="https://drive.google.com/file/d/1OimU_Ai3WdQZMdVnabTzg2oIAv3q3V8B/view?usp=sharing">
           Resume
         </a>
       </li>
-    </div>
+    </>
   );
 };
 
